@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+Route::get('/StartGame', function () {
+    return view('GameOfLife');
+});
+
+Route::get('/Instructions', function () {
+    return view('instructions');
+});
