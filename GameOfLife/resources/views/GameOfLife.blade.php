@@ -44,11 +44,10 @@
 
                     <h3>Select the size for the Grid</h3>
                     <div class="form-group">
-                    <label>Height Size : </label><input class='form-control' value="15" type="number" id="GridHeight" min="4" onchange="grid();">
+                    <label>Grid Size : </label><input class='form-control' value="15" type="number" id="GridHeight" min="4" onchange="grid();">
                     </div>
                     <div class="form-group">
-                        <label>width Size : </label><input class='form-control' value="15" type="number" id="GridWidth" min="4"
-                        onchange="grid();">
+                      
                         <hr>
                         <a  class='btn btn-success' onclick="play();">PLAY</a>  
                         <a  class='btn btn-danger' id="stopBTN">STOP</a>  

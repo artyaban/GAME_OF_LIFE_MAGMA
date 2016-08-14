@@ -6,7 +6,7 @@ function grid()
 {
 
 	var height = document.getElementById('GridHeight').value;
-	var width =  document.getElementById('GridWidth').value;
+	var width =  document.getElementById('GridHeight').value;
 	
 	var tabla   = document.createElement("table");
 	tabla.style.height = '100%';
@@ -18,7 +18,7 @@ function grid()
 
 	cells = new Array(document.getElementById('GridHeight').value);
 	cells2 = new Array(document.getElementById('GridHeight').value);
-	for (var i = 0; i<=document.getElementById('GridWidth').value ; i++) {
+	for (var i = 0; i<=document.getElementById('GridHeight').value ; i++) {
 		cells[i]= new Array(document.getElementById('GridHeight').value);
 		cells2[i]= new Array(document.getElementById('GridHeight').value);
 	}
@@ -44,7 +44,7 @@ function grid()
 	grid.appendChild(tabla);
 
 
-	alert(cells);
+
 
 }
 
@@ -72,7 +72,7 @@ function play()
 {
 
 	var height = document.getElementById('GridHeight').value;
-	var width =  document.getElementById('GridWidth').value;
+	var width =  document.getElementById('GridHeight').value;
 	var numlivecells;
 	
 
@@ -87,46 +87,52 @@ function play()
 
 					if(cells[i][j]==1 && numlivecells<2){
 						cells2[i][j]==0;
-						
-						continue;
+					continue;
 					}
 
 					if(cells[i][j]==1 && numlivecells>3){
-						cells2[i][j]=0;
-						
-						continue;
+						cells2[i][j]=0;	
+					continue;
 					}
 
-					if(cells[i][j]==1 && numlivecells==2 || numlivecells ==3){
+					if(cells[i][j]==1 && (numlivecells==2 )){
 						cells2[i][j]=1;
-						
-						continue;
+					continue;
+					}
+					if(cells[i][j]==1 && (numlivecells==3 )){
+						cells2[i][j]=1;
+					continue;
 					}
 
 					if(cells[i][j]==0 && numlivecells==3){
 						cells2[i][j]=1;
-					
-						continue;
+					continue;
 					}
-					cells2[i][j]=0;
-				
+					
+					console.log(cells);
 					}numlivecells=0;
 				}
+
 					
 
 			for (var i = 0; i <= height; i++) {
 			for (var j = 0; j <= width; j++) {
 					cells[i][j]=cells2[i][j];
 			}}
-					redraw();
+
+			for (var i = 0; i <= height; i++) {
+			for (var j = 0; j <= width; j++) {
+					cells2[i][j]=0;
+			}}
+			redraw();
 
 }
 
 
 function redraw()
-{	alert('redraw');
+{	
 	var col = document.getElementById('GridHeight').value;
-	var row =  document.getElementById('GridWidth').value;
+	var row =  document.getElementById('GridHeight').value;
 
 		for (var i = 0; i <= col; i++) {
 			for (var j = 0; j <= row; j++) {
@@ -135,7 +141,7 @@ function redraw()
 				if(cells[i][j]==1)
 					{
 					document.getElementById(i+','+j).style.backgroundColor = "red";
-					alert(cells[i][j]);
+				
 					}else{
 					document.getElementById(i+','+j).style.backgroundColor = "#fff";
 					}
@@ -161,12 +167,12 @@ function countlives(i,j){
 
 var numlivecells=0;
 var heigth = document.getElementById('GridHeight').value;
-var width = document.getElementById('GridWidth').value;
+var width = document.getElementById('GridHeight').value;
 
 
 	for (var col=i-1;col<=i+1;col++) {
 		for (var row=j-1;row<=j+1;row++) {
-
+			alert(i+','+j)
 			if(col<0 || row < 0 || col > heigth || row >width)
 			{continue;}
 			
@@ -176,7 +182,7 @@ var width = document.getElementById('GridWidth').value;
 			{continue;}
 			if(cells[col][row]==1){
 			numlivecells++;
-			alert('celulas vivas ' +numlivecells);
+			
 			}
 		}	
 		
