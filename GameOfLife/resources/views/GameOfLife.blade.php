@@ -49,14 +49,18 @@
                         <div class="form-group">
                         <label>width Size : </label><input class='form-control' value="4" type="number" id="GridWidth" min="4"
                         onchange="grid();">
-                        </div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+                        <hr>
+                        <a  class='btn btn-success' onclick="play();">PLAY</a>  
+                        </div >
                         
+
+
                         <div id="grid">
                 
                         </div>
-
+<hr>
                     </div>
-
+                        
                 </section>
 
             </div>
