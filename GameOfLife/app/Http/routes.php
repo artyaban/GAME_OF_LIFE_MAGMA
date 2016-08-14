@@ -12,15 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	return view('welcome');
 });
 
 
 
 Route::get('/StartGame', function () {
-    return view('GameOfLife');
+	return view('GameOfLife');
 });
 
 Route::get('/Instructions', function () {
-    return view('instructions');
+	return view('instructions');
 });
