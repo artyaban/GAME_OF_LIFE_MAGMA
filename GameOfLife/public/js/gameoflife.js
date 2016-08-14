@@ -1,13 +1,12 @@
 var cells;
 var cells2=[];
-var stop= 0;
+
 
 function grid()
 {
 
 	var height = document.getElementById('GridHeight').value;
 	var width =  document.getElementById('GridHeight').value;
-	
 	var tabla   = document.createElement("table");
 	tabla.style.height = '100%';
 	var tblBody = document.createElement("tbody");
@@ -40,11 +39,7 @@ function grid()
 		tblBody.appendChild(hilera);
 	}
 	tabla.appendChild(tblBody);
-
 	grid.appendChild(tabla);
-
-
-
 
 }
 
@@ -68,6 +63,9 @@ function changeState(id)
 	
 }
 
+function stop()
+{clearTimeout(speed);}
+
 function play()
 {
 
@@ -75,9 +73,8 @@ function play()
 	var width =  document.getElementById('GridHeight').value;
 	var numlivecells;
 	
-
-
-
+	
+	
 		for (var i = 0; i <= height; i++) {
 			for (var j = 0; j <= width; j++) {
 				
@@ -124,8 +121,9 @@ function play()
 			for (var j = 0; j <= width; j++) {
 					cells2[i][j]=0;
 			}}
-			redraw();
 
+			redraw();
+			speed = setTimeout(play,1000);
 }
 
 
@@ -153,15 +151,6 @@ function redraw()
 			
 
 
-function sleep(sleepDuration){
-
-var now = new Date().getTime();
-
-	while(new Date().getTime() < now + sleepDuration)
-	{ /* do nothing */ } 
-}
-
-
 
 function countlives(i,j){
 
@@ -172,7 +161,7 @@ var width = document.getElementById('GridHeight').value;
 
 	for (var col=i-1;col<=i+1;col++) {
 		for (var row=j-1;row<=j+1;row++) {
-			alert(i+','+j)
+			
 			if(col<0 || row < 0 || col > heigth || row >width)
 			{continue;}
 			
