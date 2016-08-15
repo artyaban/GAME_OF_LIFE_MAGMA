@@ -13,11 +13,11 @@
 <br>Each cell with two or three neighbors survives.</p>
 <h4>For a space that is 'empty' or 'unpopulated'</h4>
 <p>Each cell with three neighbors becomes populated.</p>
-
+<hr>
 <h3>Lenguage</h3>
 Created in , HTML , CSS (Bootstrap), Javascript , php. Framework Laravel.
 <br>Test selenium IDE 2.9.1 (firefox). Exported tests to Java / JUnit 4 / Webdriver.
-
+<hr>
 <h3>How to Install</h3>
 
 
