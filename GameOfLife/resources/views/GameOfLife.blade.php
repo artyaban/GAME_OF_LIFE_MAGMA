@@ -26,13 +26,13 @@
 
             <header>
 
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
-                    <h1><hr>Game Of Life.<hr></h1>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                    <h1 class="tittle"><hr>Game Of Life.<hr></h1>
                     
                 </div>
 
 
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 "><hr>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 "><hr>
                     <a class='btn btn-primary btn-lg' href="Instructions">how to play</a>
                 </div>
 
@@ -44,7 +44,7 @@
 
                     <h3>Select the size for the Grid</h3>
                     <div class="form-group">
-                    <label>Grid Size : </label><input class='form-control' value="15" type="number" id="GridHeight" min="4" onkeyup="grid();">
+                    <label>Grid Size : </label><input class='form-control' value="25" type="number" id="GridHeight" min="4" onclick="grid();">
                     </div>
                     <div class="form-group">
                       
@@ -57,13 +57,19 @@
 
 
 
-                    <div id="grid">
+                    <div id="grid" class="grid">
 
                     </div>
                     <hr>
                 </div>
 
             </section>
+
+            <footer>
+            <div class="col-md-12">
+                Made by Arturo Aban. 15/AUG/2016.
+                </div>
+            </footer>
 
         </div>
 
