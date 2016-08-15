@@ -20,3 +20,11 @@ Unit tests PHPUnit in Laravel.
 
 <h3>How to Install</h3>
 
+
+
+-Install Composer. (https://getcomposer.org/).
+-Download or Clone the Repository.
+-Open terminal go to Repository. Example cd Game_OF_LIFE_MAGMA/gameoflife
+-In terminal run "composer install".
+-In terminal run "php artisan serve".
+-In the explorer (mozilla,chrome,etc..). Open URL.  http://localhost:8000/StartGame.
