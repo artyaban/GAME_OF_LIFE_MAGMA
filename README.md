@@ -16,7 +16,7 @@
 
 <h3>Lenguage</h3>
 Created in , HTML , CSS (Bootstrap), Javascript , php. Framework Laravel.
-Unit tests PHPUnit in Laravel.
+<br>Test selenium IDE 2.9.1 (firefox). Exported tests to Java / JUnit 4 / Webdriver.
 
 <h3>How to Install</h3>
 
