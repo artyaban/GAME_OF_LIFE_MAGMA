@@ -5,20 +5,29 @@
     <title>Welcome Game Of Life</title> 
 
 
-
+    <!-- CDN jquery for bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    
+
+    <!-- CDN Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+     <!-- Javascript gameoflive -->
     <script type="text/javascript" src=" {{ URL::asset('js/gameoflife.js') }}"></script>
+
+    <!-- Style Sheet styles -->
     <link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}" />
 
    
 </head>
-<body onload="grid()">
+<body onload="grid()"> <!--  call to function Grid. -->
   
 
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 "> 
 
             <header>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
@@ -26,7 +35,7 @@
                     
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 "><hr>
-                    <a class='btn btn-primary btn-lg' href="Instructions">how to play</a>
+                    <a class='btn btn-primary btn-lg' href="Instructions">how to play</a> <!-- how to play button -->
                 </div>
             </header>
 
@@ -36,16 +45,16 @@
                     <h3>Select the size for the Grid</h3>
 
                     <div class="form-group">
-                    <label>Grid Size : </label><input class='form-control' value="25" type="number" id="GridHeight" min="4" onchange='grid();' onclick="grid();">
+                    <label>Grid Size : </label><input class='form-control' value="25" type="number" id="GridHeight" min="4" onchange='grid();' onclick="grid();"> <!--  select the size of the grid -->
                     </div>
 
                     <div class="form-group">  
                     <hr>
-                    <a  class='btn btn-success' onclick="play();">PLAY</a>   
-                    <button class='btn btn-danger'onclick="stop()">STOP</button>
+                    <a  class='btn btn-success' onclick="play();">PLAY</a>   <!-- button play -->
+                    <button class='btn btn-danger'onclick="stop()">STOP</button> <!-- button stop -->
                     </div >
                    
-                    <div id="grid" class="grid">
+                    <div id="grid" class="grid">  <!-- div where the grid is created -->
                     </div>
                     
                     <hr>
