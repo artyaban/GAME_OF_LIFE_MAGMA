@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8000/" />
+<title>PLAYTEST</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">PLAYTEST</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/StartGame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=GridHeight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=GridHeight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=GridHeight</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=GridHeight</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=GridHeight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=GridHeight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=7,23</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=7,23</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=8,23</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=8,23</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=8,22</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=8,22</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=8,24</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=8,24</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=9,24</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=9,24</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=9,22</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=9,22</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=10,23</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=10,23</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=16,37</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=16,37</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=17,37</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=17,37</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=17,36</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=17,36</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=17,38</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=17,38</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=18,38</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=18,38</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=18,36</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=18,36</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=19,37</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=19,37</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=17,13</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=17,13</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=18,12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=18,12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=18,13</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=18,13</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=18,14</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=18,14</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=19,12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=19,12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=19,14</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=19,14</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=20,13</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=20,13</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=PLAY</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=PLAY</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btn.btn-danger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btn.btn-danger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=1,6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=1,6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=2,6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=2,6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=3,6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=3,6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=PLAY</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=PLAY</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btn.btn-danger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btn.btn-danger</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
