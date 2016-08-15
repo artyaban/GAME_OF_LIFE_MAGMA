@@ -1,11 +1,20 @@
 td{
 	
-	height: 20px;
-	width: 20px;
+	height: 15px;
+	width: 15px;
+	border: solid #3074ae 1px;
 
-	border: solid #000 1px;
 
 }
 tr{
-	border: solid #000 1px;
+	border: solid #fff 1px;
+	
+}
+.tittle{
+	color:#fff;
+	text-shadow: 3px 3px 3px #999;
+}
+body{
+	background-color: #000;
+	color: #fff;
 }

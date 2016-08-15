@@ -50,9 +50,9 @@ function changeState(id)
 	var row = vals[0];
 	var col = vals[1];
 
-	if(cells[row,col]==1)
+	if(cells[row][col]==1)
 	{
-		document.getElementById(id).style.backgroundColor = "#fff";
+		document.getElementById(id).style.backgroundColor = "#000";
 		cells[row][col]=0;
 	}else
 	{
@@ -106,7 +106,7 @@ function play()
 					continue;
 					}
 					
-					console.log(cells);
+					
 					}numlivecells=0;
 				}
 
@@ -132,16 +132,27 @@ function redraw()
 	var col = document.getElementById('GridHeight').value;
 	var row =  document.getElementById('GridHeight').value;
 
+
+
+
 		for (var i = 0; i <= col; i++) {
+
+				
+			
 			for (var j = 0; j <= row; j++) {
+
+
+			
 
 
 				if(cells[i][j]==1)
 					{
+					
+
 					document.getElementById(i+','+j).style.backgroundColor = "red";
 				
 					}else{
-					document.getElementById(i+','+j).style.backgroundColor = "#fff";
+					document.getElementById(i+','+j).style.backgroundColor = "#000";
 					}
 			}}
 
